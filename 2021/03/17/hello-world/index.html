@@ -234,8 +234,21 @@
   
 
   
-  <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
-<script src="https://billts.site/js/gitment.js"></script>
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://example.com/2021/03/17/hello-world/",
+  owner: 'andydodo',
+  repo: 'andydodo.github.io',
+  oauth: {
+    client_id: '27a81f22df6f6475b50c',
+    client_secret: 'b2381c70d802e43e16d3b11e48161b727eb6bcdc',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
 
   
 
