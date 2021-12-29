@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>相册 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript &#x3D; function(path) {       var $script &#x3D; document.createElement(&#39;script&#39;)       document.getElementsByTagName(&#39;body&#39;)[0].appendChi">
+  <meta name="description" content="九宫格（二）demo 	 		#main{ 			width: 170px; 			height:170px; 			background: blue; 			margin: 0 auto; 		} 		#main div{ 			width: 50px; 			line-height: 50px; 			text-align:center; 			background: #AAA;">
 <meta property="og:type" content="website">
-<meta property="og:title" content="相册">
-<meta property="og:url" content="http://example.com/photos/index.html">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/assets/demo/jiugongge_demo2.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript &#x3D; function(path) {       var $script &#x3D; document.createElement(&#39;script&#39;)       document.getElementsByTagName(&#39;body&#39;)[0].appendChi">
+<meta property="og:description" content="九宫格（二）demo 	 		#main{ 			width: 170px; 			height:170px; 			background: blue; 			margin: 0 auto; 		} 		#main div{ 			width: 50px; 			line-height: 50px; 			text-align:center; 			background: #AAA;">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-12-29T06:47:30.453Z">
-<meta property="article:modified_time" content="2021-12-29T06:47:00.909Z">
+<meta property="article:published_time" content="2021-12-29T07:34:06.387Z">
+<meta property="article:modified_time" content="2021-12-29T07:34:06.387Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -160,43 +160,57 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-photos" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      相册
-    </h1>
-  
-
-        
-      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" href="./ins.css">
-<div class="photos-btn-wrap">
-	<a class="photos-btn active" href="javascript:void(0)">Ins</a>
-	<a class="photos-btn" target="_blank" href="http://litten.me/gallery/">摄影</a>
-</div>
-<div class="instagram itemscope">
-	<a href="https://www.instagram.com/litten225/" target="_blank" class="open-ins">图片来自instagram，正在加载中…</a>
-</div>
-<script>
-  (function() {
-    var loadScript = function(path) {
-      var $script = document.createElement('script')
-      document.getElementsByTagName('body')[0].appendChild($script)
-      $script.setAttribute('src', path)
-    }
-    setTimeout(function() {
-      loadScript('./ins.js')
-    }, 0)
-  })()
-</script>
-
+        <!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>九宫格（二）demo</title>
+	<style>
+		#main{
+			width: 170px;
+			height:170px;
+			background: blue;
+			margin: 0 auto;
+		}
+		#main div{
+			width: 50px;
+			line-height: 50px;
+			text-align:center;
+			background: #AAA;
+			margin:5px 5px 0 0;
+		}
+		#main a{
+			width: 55px;
+			line-height: 55px;
+			float: left;
+			padding: 0 0 5px 5px;
+			margin: 0 -5px -5px 0;
+			text-decoration: none;
+		}
+		#main a:hover{
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<a href=""><div>1</div></a>
+		<a href=""><div>2</div></a>
+		<a href=""><div>3</div></a>
+		<a href=""><div>4</div></a>
+		<a href=""><div>5</div></a>
+		<a href=""><div>6</div></a>
+		<a href=""><div>7</div></a>
+		<a href=""><div>8</div></a>
+		<a href=""><div>9</div></a>
+	</div>
+</body>
+</html>
       
 
       
@@ -233,6 +247,33 @@
 </aside>
 
 
+
+  
+  
+  
+
+  
+
+  
+
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://example.com/assets/demo/jiugongge_demo2.html",
+  owner: 'andydodo',
+  repo: 'andydodo.github.io',
+  oauth: {
+    client_id: '27a81f22df6f6475b50c',
+    client_secret: 'b2381c70d802e43e16d3b11e48161b727eb6bcdc',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+
+  
 
 
           </div>
