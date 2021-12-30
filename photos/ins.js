@@ -120,7 +120,7 @@
           var src = 'https://imgtu.com/album/guStU' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
-	  var size = data.Size[i];
+	  var size = data.size[i];
           src += '.jpg';
 
           liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
