@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://s4.ax1x.com/2021/12/30/' + data.link[i] + '.min.jpg';
-          var src = 'https://s4.ax1x.com/2021/12/30/' + data.link[i];
+          var minSrc = 'https://imgtu.com/album/guStU' + data.link[i] + '.min.jpg';
+          var src = 'https://imgtu.com/album/guStU' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
 	  var size = data.Size[i];
