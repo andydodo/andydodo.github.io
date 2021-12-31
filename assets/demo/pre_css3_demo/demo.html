@@ -459,25 +459,30 @@ body{
 
   
 
-  
-  <div id="gitment-ctn"></div> 
-<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
-<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  id: "http://example.com/assets/demo/pre_css3_demo/demo.html",
-  owner: 'andydodo',
-  repo: 'andydodo.github.io',
-  oauth: {
-    client_id: '27a81f22df6f6475b50c',
-    client_secret: 'b2381c70d802e43e16d3b11e48161b727eb6bcdc',
-  },
+
+       <div id="gitalk-container"></div>
+       <div id="gitalk-container" style="padding: 0px 30px 0px 30px;"></div> 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+
+if(true){
+	var gitalk = new Gitalk({
+  	clientID: '0422fd97473c3e6e59ab',
+  	clientSecret: 'f6585efbd1221af656f091857d7fbfa706e8a0dd',
+  	repo: 'andydodo.github.io',
+  	owner: 'andydodo',
+  	admin: ['andydodo'],
+  	id: 'Wed Dec 29 2021 02:34:06 GMT-0500',
+  	distractionFreeMode: 'true'
 })
-gitment.render('gitment-ctn')
+gitalk.render('gitalk-container') 
+}
 </script>
-
   
 
+  
 
           </div>
         </div>
