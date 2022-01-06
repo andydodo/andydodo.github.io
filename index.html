@@ -182,11 +182,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Cpp-二进制文件和动态链接库并调用"><a href="#Cpp-二进制文件和动态链接库并调用" class="headerlink" title="Cpp 二进制文件和动态链接库并调用"></a>Cpp 二进制文件和动态链接库并调用</h2><p><strong>编译生成动态库文件</strong><br>    ‘’ g++ -fPIC -share -o libxxx.so xxx.cpp<br>    ‘’ // -fPIC 作用于编译阶段, -share 表示共享的，用于实现程序的动态链接功能，和前一个参数往往搭配使用</p>
-<p><strong>调用生成的库文件</strong><br>    ‘’ g++ -o main main.cpp ./libxxx.so<br>    ‘’ // 头文件和库文件以及源文件在同一目录下</p>
-<p><strong>.so库文件在/usr/lib下，.h头文件在/usr/include</strong><br>    ‘’ g++ main.cpp -o main -lmyTest<br>    ‘’ // 默认动态库路径和头文件路径</p>
-<p><strong>.so库文件.h头文件在指定目录下</strong><br>    ‘’ g++ main.cpp -I -L -lmyTest -o main<br>    ‘’ // -I (头文件所在目录) -L (库文件所在目录) -l (库名)</p>
-
+        <p><img src="/assets/blogImg/bridge.jpg" width="500"></p>
+        
+          <a class="article-more-a" href="/2022/01/05/C-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93%E5%B9%B6%E8%B0%83%E7%94%A8/#more">more >></a>
+        
       
 
       
