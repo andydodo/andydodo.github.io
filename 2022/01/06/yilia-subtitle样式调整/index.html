@@ -6,19 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Andy&#39;s Blog</title>
+  <title>yilia subtitle样式调整 | Andy&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="九宫格（二）demo 	 		#main{ 			width: 170px; 			height:170px; 			background: blue; 			margin: 0 auto; 		} 		#main div{ 			width: 50px; 			line-height: 50px; 			text-align:center; 			background: #AAA;">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Andy&#39;s Blog">
-<meta property="og:url" content="http://example.com/assets/demo/jiugongge_demo2.html">
+  <meta name="description" content="问题描述: yilia主题打包通过，subtitle字体在PC端和移动端无法居中。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="yilia subtitle样式调整">
+<meta property="og:url" content="http://example.com/2022/01/06/yilia-subtitle%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4/index.html">
 <meta property="og:site_name" content="Andy&#39;s Blog">
-<meta property="og:description" content="九宫格（二）demo 	 		#main{ 			width: 170px; 			height:170px; 			background: blue; 			margin: 0 auto; 		} 		#main div{ 			width: 50px; 			line-height: 50px; 			text-align:center; 			background: #AAA;">
+<meta property="og:description" content="问题描述: yilia主题打包通过，subtitle字体在PC端和移动端无法居中。">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-01-04T10:51:56.219Z">
-<meta property="article:modified_time" content="2022-01-04T10:51:56.219Z">
+<meta property="og:image" content="http://example.com/assets/blogImg/code.jpg">
+<meta property="article:published_time" content="2022-01-06T08:38:52.000Z">
+<meta property="article:modified_time" content="2022-01-06T08:54:19.803Z">
 <meta property="article:author" content="Andy Do">
+<meta property="article:tag" content="yilia">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/assets/blogImg/code.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Andy&#39;s Blog" type="application/atom+xml">
   
@@ -164,57 +167,40 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-yilia-subtitle样式调整" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      yilia subtitle样式调整
+    </h1>
+  
+
+        
+        <a href="/2022/01/06/yilia-subtitle%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4/" class="archive-article-date">
+  	<time datetime="2022-01-06T08:38:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-01-06</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>九宫格（二）demo</title>
-	<style>
-		#main{
-			width: 170px;
-			height:170px;
-			background: blue;
-			margin: 0 auto;
-		}
-		#main div{
-			width: 50px;
-			line-height: 50px;
-			text-align:center;
-			background: #AAA;
-			margin:5px 5px 0 0;
-		}
-		#main a{
-			width: 55px;
-			line-height: 55px;
-			float: left;
-			padding: 0 0 5px 5px;
-			margin: 0 -5px -5px 0;
-			text-decoration: none;
-		}
-		#main a:hover{
-			background: red;
-		}
-	</style>
-</head>
-<body>
-	<div id="main">
-		<a href=""><div>1</div></a>
-		<a href=""><div>2</div></a>
-		<a href=""><div>3</div></a>
-		<a href=""><div>4</div></a>
-		<a href=""><div>5</div></a>
-		<a href=""><div>6</div></a>
-		<a href=""><div>7</div></a>
-		<a href=""><div>8</div></a>
-		<a href=""><div>9</div></a>
-	</div>
-</body>
-</html>
+        <p><img src="/assets/blogImg/code.jpg" width="500"></p>
+
+<p>问题描述: yilia主题打包通过，subtitle字体在PC端和移动端无法居中。</p>
+<span id="more"></span>
+
+<hr>
+<p>** PC端subtitle字体样式调整**</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim left-col.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>移动端subtitle字体样式调整</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim mobile-nav.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>问题原因: css header-subtitle，display没有设置block导致。当然还有其他修复办法。( 非前端专业，仅供参考)</strong></p>
+
       
 
       
@@ -222,7 +208,29 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/随笔//" class="article-tag-list-link color3">随笔</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -233,6 +241,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2022/01/05/C-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93%E5%B9%B6%E8%B0%83%E7%94%A8/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -275,7 +293,7 @@ if(true){
   	repo: 'andydodo.github.io',
   	owner: 'andydodo',
   	admin: ['andydodo'],
-  	id: 'Tue Jan 04 2022 05:51:56 GMT-0500',
+  	id: 'Thu Jan 06 2022 03:38:52 GMT-0500',
   	distractionFreeMode: 'true'
 })
 gitalk.render('gitalk-container') 
@@ -306,7 +324,7 @@ gitalk.render('gitalk-container')
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
