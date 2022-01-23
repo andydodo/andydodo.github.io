@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-23T07:31:50.417Z</updated>
+  <updated>2022-01-23T07:39:22.133Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2022/01/23/TypeScript/"/>
     <id>http://example.com/2022/01/23/TypeScript/</id>
     <published>2022-01-23T07:23:06.000Z</published>
-    <updated>2022-01-23T07:31:50.417Z</updated>
+    <updated>2022-01-23T07:39:22.133Z</updated>
     
-    <content type="html"><![CDATA[<p>TS .!  (最近阅读代码遇到的疑问)</p><span id="more"></span><p><strong>阅读代码中出现了!.map()，然后写这个的人已经离职。找了好久资料，终于找到答案。</strong></p><blockquote><p>这是TypeScript的语法，叫非空断言操作符（non-null assertion operator），和?.相反，这个符号表示对象后面的属性一定不是null或undefined。**</p></blockquote><h4 id="关于localStorage"><a href="#关于localStorage" class="headerlink" title="关于localStorage"></a>关于localStorage</h4><p><strong>在HTML5中，新加入了一个localStorage特性，这个特性主要是用来作为本地存储来使用</strong></p><h4 id="localStorage常用方法"><a href="#localStorage常用方法" class="headerlink" title="localStorage常用方法"></a>localStorage常用方法</h4><p>** 浏览器的控制台输入localStorage来查看其自带的方法，主要提供**</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">getItem, setItem, removeItem 等</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>TS .!  (最近阅读代码遇到的疑问)</p><span id="more"></span><p><strong>阅读代码中出现了!.map()，然后写这个的人已经离职。找了好久资料，终于找到答案。</strong></p><blockquote><p>这是TypeScript的语法，叫非空断言操作符（non-null assertion operator），和?.相反，这个符号表示对象后面的属性一定不是null或undefined。**</p></blockquote><h4 id="关于localStorage"><a href="#关于localStorage" class="headerlink" title="关于localStorage"></a>关于localStorage</h4><p><strong>在HTML5中，新加入了一个localStorage特性，这个特性主要是用来作为本地存储来使用。</strong></p><h4 id="localStorage常用方法"><a href="#localStorage常用方法" class="headerlink" title="localStorage常用方法"></a>localStorage常用方法</h4><p><strong>浏览器的控制台输入localStorage来查看其自带的方法，主要提供</strong>。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">getItem, setItem, removeItem 等</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;TS .!  (最近阅读代码遇到的疑问)&lt;/p&gt;</summary>
