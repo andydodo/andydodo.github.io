@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-06-26T06:00:37.111Z</updated>
+  <updated>2025-06-26T06:07:06.450Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2022/01/23/TypeScript/"/>
     <id>http://example.com/2022/01/23/TypeScript/</id>
     <published>2022-01-23T07:23:06.000Z</published>
-    <updated>2025-06-26T06:00:37.111Z</updated>
+    <updated>2025-06-26T06:07:06.450Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/assets/blogImg/front_end.png" width="500"></p><p>阅读代码，遇到的疑问。</p><span id="more"></span><p><strong>在阅读前同事的代码时，发现了一个较为少见的语法!.。由于原作者已经离职，花了不少时间才明白它的用途。</strong></p><blockquote><p>这是TypeScript的语法，叫非空断言操作符（non-null assertion operator）和?.相反。这个符号表示对象后面的属性，一定不是null或undefined。</p></blockquote><h4 id="关于localStorage"><a href="#关于localStorage" class="headerlink" title="关于localStorage"></a>关于localStorage</h4><p><strong>在HTML5中，新加入了一个localStorage特性，这个特性主要是作为本地存储来使用。</strong></p><h4 id="localStorage常用方法"><a href="#localStorage常用方法" class="headerlink" title="localStorage常用方法"></a>localStorage常用方法</h4><p><strong>主要提供下面几种方法，在浏览器控制台输入localStorage查看其自带的方法。</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">getItem, setItem, removeItem...</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><img src="/assets/blogImg/front_end.png" width="500"></p><p>阅读代码，遇到的疑问。</p><span id="more"></span><p><strong>在阅读前同事的代码时，发现了一个较为少见的语法“!.”。由于原作者已经离职，花了不少时间才明白它的用途。</strong></p><blockquote><p>这是TypeScript的语法，叫非空断言操作符（non-null assertion operator）和“?.”相反。这个符号表示对象后面的属性，一定不是null或undefined。</p></blockquote><h4 id="关于localStorage"><a href="#关于localStorage" class="headerlink" title="关于localStorage"></a>关于localStorage</h4><p><strong>在HTML5中，新加入了一个localStorage特性，这个特性主要是作为本地存储来使用。</strong></p><h4 id="localStorage常用方法"><a href="#localStorage常用方法" class="headerlink" title="localStorage常用方法"></a>localStorage常用方法</h4><p><strong>主要提供下面几种方法，在浏览器控制台输入localStorage查看其自带的方法。</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">getItem, setItem, removeItem...</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/assets/blogImg/front_end.png&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
