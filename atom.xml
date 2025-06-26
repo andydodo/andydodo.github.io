@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-23T07:39:22.133Z</updated>
+  <updated>2025-06-26T04:49:51.914Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,12 +21,14 @@
     <link href="http://example.com/2022/01/23/TypeScript/"/>
     <id>http://example.com/2022/01/23/TypeScript/</id>
     <published>2022-01-23T07:23:06.000Z</published>
-    <updated>2022-01-23T07:39:22.133Z</updated>
+    <updated>2025-06-26T04:49:51.914Z</updated>
     
-    <content type="html"><![CDATA[<p>TS .!  (最近阅读代码遇到的疑问)</p><span id="more"></span><p><strong>阅读代码中出现了!.map()，然后写这个的人已经离职。找了好久资料，终于找到答案。</strong></p><blockquote><p>这是TypeScript的语法，叫非空断言操作符（non-null assertion operator），和?.相反，这个符号表示对象后面的属性一定不是null或undefined。**</p></blockquote><h4 id="关于localStorage"><a href="#关于localStorage" class="headerlink" title="关于localStorage"></a>关于localStorage</h4><p><strong>在HTML5中，新加入了一个localStorage特性，这个特性主要是用来作为本地存储来使用。</strong></p><h4 id="localStorage常用方法"><a href="#localStorage常用方法" class="headerlink" title="localStorage常用方法"></a>localStorage常用方法</h4><p><strong>浏览器的控制台输入localStorage来查看其自带的方法，主要提供</strong>。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">getItem, setItem, removeItem 等</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><img src="/assets/blogImg/front_end.png" width="500"></p><p>阅读代码，遇到的疑问。</p><span id="more"></span><p><strong>阅读代码中出现了!.，然后写这个的人已经离职。找了好久资料，终于找到答案。</strong></p><blockquote><p>这是TypeScript的语法，叫非空断言操作符（non-null assertion operator）和?.相反，这个符号表示对象后面的属性一定不是null或undefined。</p></blockquote><h4 id="关于localStorage"><a href="#关于localStorage" class="headerlink" title="关于localStorage"></a>关于localStorage</h4><p><strong>在HTML5中，新加入了一个localStorage特性，这个特性主要是用来作为本地存储来使用。</strong></p><h4 id="localStorage常用方法"><a href="#localStorage常用方法" class="headerlink" title="localStorage常用方法"></a>localStorage常用方法</h4><p><strong>浏览器的控制台输入localStorage来查看其自带的方法，主要提供</strong>。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">getItem, setItem, removeItem 等</span><br></pre></td></tr></table></figure>]]></content>
     
     
-    <summary type="html">&lt;p&gt;TS .!  (最近阅读代码遇到的疑问)&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/assets/blogImg/front_end.png&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;阅读代码，遇到的疑问。&lt;/p&gt;</summary>
     
     
     
@@ -38,18 +40,18 @@
   </entry>
   
   <entry>
-    <title>yilia subtitle样式调整</title>
+    <title>Yilia subtitle样式调整</title>
     <link href="http://example.com/2022/01/06/yilia-subtitle%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4/"/>
     <id>http://example.com/2022/01/06/yilia-subtitle%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4/</id>
     <published>2022-01-06T08:38:52.000Z</published>
-    <updated>2022-01-07T03:02:21.570Z</updated>
+    <updated>2025-06-26T04:32:20.706Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/assets/blogImg/code.jpg" height="500" width="500"></p><p>问题描述:<br>    yilia主题打包通过，subtitle字体在PC端和移动端无法居中。</p><span id="more"></span><h3 id="样式调整"><a href="#样式调整" class="headerlink" title="样式调整"></a>样式调整</h3><p><strong>PC端subtitle字体样式调整</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim left-col.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure><p><strong>移动端subtitle字体样式调整</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim mobile-nav.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure><p><em>问题原因: css header-subtitle，display没有设置block导致。还有其他修复办法 (非前端专业，仅供参考)</em></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="/assets/blogImg/code.jpg" height="500" width="500"></p><p>yilia主题打包通过，subtitle字体在pc端和移动端无法居中。</p><span id="more"></span><h3 id="样式调整"><a href="#样式调整" class="headerlink" title="样式调整"></a>样式调整</h3><p><strong>pc端subtitle字体样式调整</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim left-col.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure><p><strong>移动端subtitle字体样式调整</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim mobile-nav.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure><p><em>问题原因: css header-subtitle，display没有设置block导致。还有其他修复办法 (非前端专业，仅供参考)</em></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/assets/blogImg/code.jpg&quot; height=&quot;500&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;问题描述:&lt;br&gt;    yilia主题打包通过，subtitle字体在PC端和移动端无法居中。&lt;/p&gt;</summary>
+&lt;p&gt;yilia主题打包通过，subtitle字体在pc端和移动端无法居中。&lt;/p&gt;</summary>
     
     
     
@@ -65,14 +67,14 @@
     <link href="http://example.com/2022/01/05/C-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93%E5%B9%B6%E8%B0%83%E7%94%A8/"/>
     <id>http://example.com/2022/01/05/C-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93%E5%B9%B6%E8%B0%83%E7%94%A8/</id>
     <published>2022-01-06T02:40:58.000Z</published>
-    <updated>2022-01-06T08:58:05.593Z</updated>
+    <updated>2025-06-26T04:35:01.232Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/assets/blogImg/bridge.jpg" width="500"></p><p>记得第一次遇见yilia，那种如获至宝的心情。<br>时隔多年，博客重新上线，谢谢作者！</p><span id="more"></span><h3 id="Cpp-二进制文件和动态链接库并调用"><a href="#Cpp-二进制文件和动态链接库并调用" class="headerlink" title="Cpp 二进制文件和动态链接库并调用"></a>Cpp 二进制文件和动态链接库并调用</h3><p><strong>编译生成动态库文件</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">g++ -fPIC -share -o libxxx.so xxx.cpp</span><br><span class="line">// -fPIC 作用于编译阶段, -share 表示共享的，用于实现程序的动态链接功能，和前一个参数往往搭配使用</span><br></pre></td></tr></table></figure><p><strong>调用生成的库文件</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">g++ -o main main.cpp ./libxxx.so</span><br><span class="line">// 头文件和库文件以及源文件在同一目录下</span><br></pre></td></tr></table></figure><p><strong>.so库文件在/usr/lib下，.h头文件在/usr/include</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">g++ main.cpp -o main -lmyTest</span><br><span class="line">// 默认动态库路径和头文件路径</span><br></pre></td></tr></table></figure><p><strong>.so库文件.h头文件在指定目录下</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">g++ main.cpp -I -L -lmyTest -o main </span><br><span class="line">// -I (头文件所在目录) -L (库文件所在目录) -l (库名)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><img src="/assets/blogImg/bridge.jpg" width="500"></p><p>时隔多年，博客重新上线！</p><span id="more"></span><h3 id="cpp-二进制文件和动态链接库并调用"><a href="#cpp-二进制文件和动态链接库并调用" class="headerlink" title="cpp 二进制文件和动态链接库并调用"></a>cpp 二进制文件和动态链接库并调用</h3><p><strong>编译生成动态库文件</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## -fPIC 作用于编译阶段, -share 表示共享的，用于实现程序的动态链接功能，和前一个参数往往搭配使用。</span></span><br><span class="line">g++ -fPIC -share -o libxxx.so xxx.cpp</span><br></pre></td></tr></table></figure><p><strong>调用生成的库文件</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 头文件和库文件以及源文件在同一目录下</span></span><br><span class="line">g++ -o main main.cpp ./libxxx.so</span><br></pre></td></tr></table></figure><p><strong>.so库文件在/usr/lib下，.h头文件在/usr/include</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 默认动态库路径和头文件路径</span></span><br><span class="line">g++ main.cpp -o main -lmyTest</span><br></pre></td></tr></table></figure><p><strong>.so库文件.h头文件在指定目录下</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## -I (头文件所在目录) -L (库文件所在目录) -l (库名)</span></span><br><span class="line">g++ main.cpp -I -L -lmyTest -o main </span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;/assets/blogImg/bridge.jpg&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;记得第一次遇见yilia，那种如获至宝的心情。&lt;br&gt;时隔多年，博客重新上线，谢谢作者！&lt;/p&gt;</summary>
+&lt;p&gt;时隔多年，博客重新上线！&lt;/p&gt;</summary>
     
     
     
