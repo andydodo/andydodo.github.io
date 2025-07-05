@@ -40,11 +40,11 @@
   </entry>
   
   <entry>
-    <title>Yilia subtitle样式调整</title>
+    <title>Yilia Subtitle 样式调整</title>
     <link href="http://example.com/2022/01/06/yilia-subtitle%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4/"/>
     <id>http://example.com/2022/01/06/yilia-subtitle%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4/</id>
     <published>2022-01-06T08:38:52.000Z</published>
-    <updated>2025-06-26T04:32:20.706Z</updated>
+    <updated>2025-07-05T03:17:23.757Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/assets/blogImg/code.jpg" height="500" width="500"></p><p>yilia主题打包通过，subtitle字体在pc端和移动端无法居中。</p><span id="more"></span><h3 id="样式调整"><a href="#样式调整" class="headerlink" title="样式调整"></a>样式调整</h3><p><strong>pc端subtitle字体样式调整</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim left-col.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure><p><strong>移动端subtitle字体样式调整</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vim mobile-nav.ejs <span class="comment">##修改文件</span></span><br><span class="line">替换&lt;p class=<span class="string">&quot;header-subtitle&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;为&lt;p style=<span class="string">&quot;color:#999;&quot;</span> align=<span class="string">&quot;center&quot;</span>&gt;&lt;i class=<span class="string">&quot;icon icon-quo-left&quot;</span>&gt;&lt;/i&gt;&lt;%=theme.subtitle%&gt;&lt;i class=<span class="string">&quot;icon icon-quo-right&quot;</span>&gt;&lt;/i&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure><p><em>问题原因: css header-subtitle，display没有设置block导致。还有其他修复办法 (非前端专业，仅供参考)</em></p>]]></content>
     
